@@ -10,9 +10,23 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="myScript.js"></script>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     </head>
     <body>
-        <p id="para">Hello</p>
-        <h1>Welcome to Code</h1>
+        <table>
+            <tr>
+                <td><input type="number" id="num1"></td>
+                <td><input type="number" id="num2"></td>
+            </tr>
+            <tr>
+                <td><button id="add" onclick="add()">ADD</button></td>
+                <td><button id="sub" onclick="sub()">SUBTRACT</button></td>
+            </tr>
+            <tr>
+                <td><button id="mul" onclick="mul()">MULTIPLY</button></td>
+                <td><button id="div" onclick="div()">DIVISION</button></td>
+            </tr>
+        </table>
     </body>
 </html>
